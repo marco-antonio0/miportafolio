@@ -63,30 +63,30 @@ body{
     }
 }
 .img-circle-center{
-    width: 30%;
-    height: 55%;
+    width: 35%;
+    height: 65%;
     border-radius: 50%;
     display: flex;
-    position: absolute;
+    position: relative;
     background-color: var(--back-text);
     justify-content: center;
     align-items: center;
 }
 @media (max-width: 480px){
     .img-circle-center{
-        width: 200px;
-        height: 200px;
+        width: 60%;
+        height: 100%;
     }
 }
 .img-circle{
-    width: 280px;
-    height: 430px;
-    margin-bottom: 50px;   
+    width: 55%;
+    height: 105%;
+    margin-bottom: 50px;
 }
 @media (max-width: 480px){
     .img-circle{
-        width: 130px;
-        height: 190px;
+        width: 80%;
+        height: 90%;
     }
 }
 .inicio-content{
